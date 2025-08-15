@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "titulo": "Uñas Acrílicas: Guía Completa",
+    "descripcion": "Descubre el mundo de las uñas acrílicas, desde su aplicación hasta el cuidado posterior. Aprende a mantenerlas impecables y duraderas con nuestros consejos de expertos.",
+    "urlImagen": "https://i.pinimg.com/1200x/55/f7/b2/55f7b2b52bb8777d77cb37e0096236c6.jpg",
+    "mostrarTodo": true
+  },
+  {
+    "id": 2,
+    "titulo": "Manicura Francesa: Un Clásico que Nunca Falla",
+    "descripcion": "La manicura francesa es sinónimo de elegancia y sofisticación. En este artículo te enseñamos a conseguir el look perfecto y a adaptarlo a las últimas tendencias.",
+    "urlImagen": "https://i.pinimg.com/1200x/7f/e9/cf/7fe9cf2253d08493800afcb4f8dc7576.jpg",
+    "mostrarTodo": false
+  },
+  {
+    "id": 3,
+    "titulo": "Tendencias de Esmaltes para el 2025",
+    "descripcion": "Prepárate para lucir unas manos a la moda con las tendencias de esmaltes para el 2025. Desde los tonos pastel hasta los metalizados, te mostramos los colores que dominarán la temporada.",
+    "urlImagen": "https://i.pinimg.com/1200x/42/15/54/421554010b80f2e35178cc50a12f7424.jpg",
+    "mostrarTodo": false
+  },
+  {
+    "id": 4,
+    "titulo": "Consejos para Fortalecer tus Uñas",
+    "descripcion": "Si tienes uñas débiles y quebradizas, este artículo es para ti. Te revelamos los mejores secretos para fortalecerlas de forma natural y lucir unas manos sanas y hermosas.",
+    "urlImagen": "https://i.pinimg.com/1200x/f1/bb/8e/f1bb8e150308ce818dac20d933b737d4.jpg",
+    "mostrarTodo": true
+  },
+  {
+    "id": 5,
+    "titulo": "Nail Art para Principiantes",
+    "descripcion": "Adéntrate en el fascinante mundo del nail art. Con esta guía para principiantes, aprenderás las técnicas básicas para crear diseños increíbles en tus uñas desde casa.",
+    "urlImagen": "https://i.pinimg.com/736x/e4/58/b6/e458b6a2247a99bf53f196d935eb244c.jpg",
+    "mostrarTodo": false
+  },
+  {
+    "id": 6,
+    "titulo": "Uñas de Gel: Ventajas y Desventajas",
+    "descripcion": "Las uñas de gel son una opción popular por su durabilidad y brillo. Descubre si son la mejor alternativa para ti, analizando sus pros y contras.",
+    "urlImagen": "https://i.pinimg.com/736x/df/fa/b8/dffab8da980ffb42f1dd80cb4af6f8e2.jpg",
+    "mostrarTodo": true
+  },
+  {
+    "id": 7,
+    "titulo": "Herramientas Indispensables para la Manicura en Casa",
+    "descripcion": "Crea tu propio kit de manicura perfecto. Te detallamos las herramientas esenciales, desde limas y cortaúñas hasta empujadores de cutícula, para un acabado profesional.",
+    "urlImagen": "https://i.pinimg.com/736x/ab/24/82/ab2482147db8f7387247008697de04b7.jpg",
+    "mostrarTodo": false
+  },
+  {
+    "id": 8,
+    "titulo": "Cómo Evitar las Uñas Amarillas",
+    "descripcion": "El amarillamiento de las uñas puede ser un problema estético. Conoce las causas y los remedios caseros para devolverles su color natural y lucir unas manos saludables.",
+    "urlImagen": "https://i.pinimg.com/1200x/72/f4/88/72f48837a214135d45cfc49a5f4756a3.jpg",
+    "mostrarTodo": true
+  },
+  {
+    "id": 9,
+    "titulo": "Los Colores de Uñas que son Tendencia este Verano",
+    "descripcion": "Sumérgete en la paleta de colores vibrantes y frescos que marcarán la pauta en las uñas este verano. Desde los neones hasta los tonos pastel, encuentra tu estilo ideal.",
+    "urlImagen": "https://i.pinimg.com/736x/ea/b9/fd/eab9fd02ce70a3cdd8f757230f2a1ee7.jpg",
+    "mostrarTodo": false
+  },
+  {
+    "id": 10,
+    "titulo": "Mitos y Verdades sobre el Crecimiento de las Uñas",
+    "descripcion": "Desmintiendo falsas creencias y revelando los verdaderos factores que influyen en el crecimiento de las uñas. Aprende a cuidarlas para que crezcan fuertes y sanas.",
+    "urlImagen": "https://i.pinimg.com/1200x/60/0d/e4/600de41940ac76354035092129577033.jpg",
+    "mostrarTodo": true
+  },
+  {
+    "id": 11,
+    "titulo": "Uñas de Porcelana vs. Acrílicas: ¿Cuál Elegir?",
+    "descripcion": "Comparamos las uñas de porcelana y las acrílicas para ayudarte a tomar la mejor decisión según tus necesidades y preferencias. Conoce sus diferencias en composición y durabilidad.",
+    "urlImagen": "https://i.pinimg.com/1200x/f7/84/13/f78413669fdeef50951d9fa49300719e.jpg",
+    "mostrarTodo": false
+  },
+  {
+    "id": 12,
+    "titulo": "Cuidado de Cutículas: La Clave para una Manicura Perfecta",
+    "descripcion": "Las cutículas son la base de una manicura impecable. Descubre cómo cuidarlas correctamente para evitar infecciones y lograr un acabado profesional y duradero.",
+    "urlImagen": "https://i.pinimg.com/1200x/2b/b4/c4/2bb4c4cbd7f0efc0c0f0fbd6e9cc3de2.jpg",
+    "mostrarTodo": true
+  },
+  {
+    "id": 13,
+    "titulo": "Nail Art con Efecto Degradado (Ombré)",
+    "descripcion": "Aprende a crear el popular efecto ombré en tus uñas. Te mostramos los pasos y los trucos para conseguir una transición de color suave y sorprendente.",
+    "urlImagen": "https://i.pinimg.com/736x/cd/e8/67/cde86724796b284611869a622b51c863.jpg",
+    "mostrarTodo": false
+  },
+  {
+    "id": 14,
+    "titulo": "Los Mejores Esmaltes de Larga Duración",
+    "descripcion": "Si buscas una manicura que dure semanas sin descascarillarse, esta es tu guía. Te presentamos los esmaltes de larga duración más recomendados por expertos.",
+    "urlImagen": "https://i.pinimg.com/1200x/a6/18/2e/a6182e06aada46519ac1f322a1777d5f.jpg",
+    "mostrarTodo": true
+  },
+  {
+    "id": 15,
+    "titulo": "Cómo Quitar el Esmalte Semi-Permanente en Casa",
+    "descripcion": "Te explicamos de forma sencilla y segura cómo remover el esmalte semi-permanente sin dañar tus uñas naturales. Olvídate de los salones y hazlo tú misma.",
+    "urlImagen": "https://i.pinimg.com/1200x/6d/a4/f3/6da4f30e199dc77baf349f2200a6e9e3.jpg",
+    "mostrarTodo": false
+  },
+  {
+    "id": 16,
+    "titulo": "Uñas Cortas: Ideas de Diseños Elegantes",
+    "descripcion": "Las uñas cortas también pueden ser elegantes y llamativas. Inspírate con estas ideas de diseños minimalistas, geométricos y con detalles sutiles.",
+    "urlImagen": "https://i.pinimg.com/736x/00/1d/52/001d523406c57d047d4bdbfe846e6e8c.jpg",
+    "mostrarTodo": true
+  },
+  {
+    "id": 17,
+    "titulo": "Alimentación y la Salud de tus Uñas",
+    "descripcion": "Descubre cómo tu dieta afecta la salud y el aspecto de tus uñas. Te detallamos los nutrientes esenciales que no pueden faltar para que estén fuertes y sanas.",
+    "urlImagen": "https://i.pinimg.com/1200x/b2/fb/2f/b2fb2fec5f6ed7dc84d1d60d7c62e9bc.jpg",
+    "mostrarTodo": true
+  },
+  {
+    "id": 18,
+    "titulo": "Cómo Reparar una Uña Rota",
+    "descripcion": "Un clavo roto puede arruinar una manicura perfecta. Te mostramos diferentes métodos y productos para reparar una uña rota de forma rápida y efectiva.",
+    "urlImagen": "https://i.pinimg.com/736x/fb/05/bf/fb05bf173847f0b410d732474dd2b9c0.jpg",
+    "mostrarTodo": false
+  },
+  {
+    "id": 19,
+    "titulo": "Manicura Rusa: La Técnica de Moda",
+    "descripcion": "La manicura rusa, conocida por su precisión y el uso de un torno eléctrico, está revolucionando el mundo de la belleza. Conoce en qué consiste y sus beneficios.",
+    "urlImagen": "https://i.pinimg.com/1200x/2b/0b/33/2b0b33e112348c8f636713dcb38256d2.jpg",
+    "mostrarTodo": false
+  },
+  {
+    "id": 20,
+    "titulo": "Uñas de Polygel: La Fusión Perfecta",
+    "descripcion": "El polygel combina lo mejor del acrílico y el gel para crear uñas fuertes, ligeras y flexibles. Descubre por qué es una de las opciones más populares en salones de belleza.",
+    "urlImagen": "https://i.pinimg.com/1200x/c2/d2/d5/c2d2d51896e6872f8613d76614e86148.jpg",
+    "mostrarTodo": true
+  },
+  {
+    "id": 21,
+    "titulo": "El Top Coat y la Base Coat: ¿Realmente los Necesitas?",
+    "descripcion": "El uso de base coat y top coat no es un capricho. Te explicamos su importancia para la durabilidad del esmalte y la protección de tus uñas naturales.",
+    "urlImagen": "https://i.pinimg.com/1200x/0a/34/b6/0a34b64aabbbf0f5e0de55ead12c74cc.jpg",
+    "mostrarTodo": true
+  },
+  {
+    "id": 22,
+    "titulo": "Diseños de Uñas con Efecto Mármol",
+    "descripcion": "Consigue un look sofisticado y lujoso con el nail art de efecto mármol. Te mostramos cómo replicar este diseño elegante con esmaltes y herramientas básicas.",
+    "urlImagen": "https://i.pinimg.com/736x/05/cd/4e/05cd4e4b3ee437ca082fd80d84412bc4.jpg",
+    "mostrarTodo": false
+  },
+  {
+    "id": 23,
+    "titulo": "Cuidados Esenciales para Uñas Postizas",
+    "descripcion": "Si optas por uñas postizas, es crucial saber cómo cuidarlas para que se mantengan intactas y saludables. Te damos los mejores consejos de mantenimiento.",
+    "urlImagen": "https://i.pinimg.com/736x/fd/ae/09/fdae09a008a691ee07e081cf251eacbd.jpg",
+    "mostrarTodo": false
+  },
+  {
+    "id": 24,
+    "titulo": "Los Beneficios del Aceite de Ricino para las Uñas",
+    "descripcion": "El aceite de ricino es un aliado natural para la belleza de tus uñas. Conoce cómo aplicarlo para fortalecerlas, hidratar las cutículas y promover su crecimiento.",
+    "urlImagen": "https://i.pinimg.com/1200x/17/29/04/172904b5f597aed97aab72fa6233caf0.jpg",
+    "mostrarTodo": true
+  },
+  {
+    "id": 25,
+    "titulo": "Esmaltes de Uñas con Acabado Mate",
+    "descripcion": "El acabado mate es una tendencia que aporta un toque moderno y chic a tu manicura. Te presentamos una selección de esmaltes mate en diferentes colores y texturas.",
+    "urlImagen": "https://i.pinimg.com/1200x/c5/0f/b8/c50fb830af25dc29b11c702990879c1b.jpg",
+    "mostrarTodo": false
+  }
+]
