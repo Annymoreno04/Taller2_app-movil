@@ -27,11 +27,21 @@ export default function DetalleElemento() {
         headerStyle: { backgroundColor: '#f9f8ff' },
       }} />
       <ScrollView style={{ backgroundColor: "#f9f8ff" }}>
-        <View style={styles.container}>
+        <View style={{
+          backgroundColor: '#fff',
+          borderRadius: 18,
+          padding: 24,
+          elevation: 4,
+          marginTop: 100,
+          alignItems: 'center',
+          justifyContent: 'center',
+          width: '90%',
+          alignSelf: 'center',
+        }}>
           <View style={styles.imageContainer}>
             <Avatar.Image
               source={{ uri: elemento.urlImagen }}
-              size={100}
+              size={150}
               style={styles.avatar}
             />
           </View>
@@ -40,11 +50,11 @@ export default function DetalleElemento() {
             {elemento.titulo}
           </Text>
 
-          <Text style={styles.price}>{elemento.precio}</Text>
-
           <View style={styles.descriptionContainer}>
             <Text style={styles.description}>{elemento.descripcion}</Text>
           </View>
+
+          <Text style={styles.price}>$65.000{elemento.precio}</Text>
 
           <Button
             mode="contained"
@@ -81,19 +91,19 @@ const styles = StyleSheet.create({
   },
   title: {
     fontWeight: "bold",
-    marginBottom: 0,
+    marginBottom: 10,
     textAlign: "left",
     alignSelf: "flex-start",
   },
   price: {
     fontWeight: "bold",
     fontSize: 22,
-    marginBottom: 12,
+    marginBottom: 15,
     alignSelf: "flex-start",
   },
   descriptionContainer: {
     alignSelf: "flex-start",
-    marginBottom: 24,
+    marginBottom: 15,
   },
   description: {
     color: "#222",

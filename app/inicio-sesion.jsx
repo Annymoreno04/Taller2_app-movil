@@ -15,12 +15,12 @@ export default function InicioSesion() {
   const buscarUsuario = () => {
 
     if (!correo || correo.trim() === '') {
-      Alert.alert("Campo requerido", "Por favor ingresa tu correo electrónico");
+      Alert.alert("Campo requerido", "Por favor ingrese su correo electrónico");
       return;
     }
 
     if (!contrasena || contrasena.trim() === '') {
-      Alert.alert("Campo requerido", "Por favor ingresa tu contraseña");
+      Alert.alert("Campo requerido", "Por favor ingrese su contraseña");
       return;
     }
 

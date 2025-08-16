@@ -21,7 +21,7 @@ export default function Autor() {
           borderRadius: 18,
           padding: 24,
           elevation: 4,
-          marginTop: 16,
+          marginTop: 80,
         }}>
           <Avatar.Image
             size={200}

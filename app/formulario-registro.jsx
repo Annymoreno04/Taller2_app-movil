@@ -16,7 +16,7 @@ export default function FormularioRegistro() {
 
   const registrarUsuario = () => {
     if (!nombre || !correo || !contrasena || !confirmContrasena) {
-      Alert.alert('Error', 'Todos los campos son obligatorios. Por favor, llénalos todos.');
+      Alert.alert('Error', 'Todos los campos son obligatorios. Por favor, llénalos.');
       return;
     }
 
