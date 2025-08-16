@@ -1,18 +1,20 @@
-ANNIE NAILS - App Móvil
 
+
+# ANNIE NAILS - App Móvil
 
 Aplicación móvil para la gestión de servicios, usuarios y productos de ANNIE NAILS.
 
-Características principales
+## Características principales
 
-. Registro y autenticación de usuarios
-. Visualización de servicios y productos
-. Gestión de usuarios y perfiles
-. Pantalla principal con navegación intuitiva
-. Formulario de registro y edición de datos
+- Registro y autenticación de usuarios
+- Visualización de servicios y productos
+- Gestión de usuarios y perfiles
+- Pantalla principal con navegación intuitiva
+- Formulario de registro y edición de datos
 
-Estructura del proyecto
+## Estructura del proyecto
 
+```
 app.json
 index.js
 package.json
@@ -32,7 +34,7 @@ app/
   ├─ pantalla-principal.jsx
   ├─ perfil-usuario.jsx
   └─ perfilUsuario/
-      └─ [id].js
+    └─ [id].js
 assets/
   ├─ elementos.json
   ├─ productos.json
@@ -42,29 +44,29 @@ images/
   ├─ annie.png
   ├─ Beauty.png
   ├─ elemento1.png ...
+```
 
-Instalación y ejecución
+## Instalación y ejecución
 
+1. Clona el repositorio:
+  ```powershell
+  git clone https://github.com/Annymoreno04/Taller2_app-movil.git
+  ```
+2. Instala las dependencias:
+  ```powershell
+  npm install
+  ```
+3. Ejecuta la aplicación:
+  ```powershell
+  npm start
+  ```
 
-1.Clona el repositorio:
+## Uso
 
-git clone https://github.com/Annymoreno04/Taller2_app-movil.git
+- Accede a la pantalla principal y navega entre servicios, productos y usuarios.
+- Regístrate o inicia sesión para acceder a funcionalidades personalizadas.
+- Administra tu perfil y consulta detalles de los elementos disponibles.
 
-2.Instala las dependencias:
-
-npm install
-
-3.Ejecuta la aplicación
-
-npm start
-
-Uso
-
-. Accede a la pantalla principal y navega entre servicios, productos y usuarios.
-. Regístrate o inicia sesión para acceder a funcionalidades personalizadas.
-. Administra tu perfil y consulta detalles de los elementos disponibles.
-
-
-Créditos
+## Créditos
 
 Desarrollado por Annymoreno04.
