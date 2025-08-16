@@ -1,8 +1,9 @@
 
-import { View, StyleSheet, ScrollView} from 'react-native';
+import { View, StyleSheet, ScrollView } from 'react-native';
 import { Text, Avatar, Button, List } from 'react-native-paper';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import usuarios from "../assets/usuarios.json";
+import { Stack } from 'expo-router';
 
 export default function PerfilUsuario() {
   const { id } = useLocalSearchParams();
@@ -18,32 +19,47 @@ export default function PerfilUsuario() {
   }
 
   return (
-    <ScrollView>
-      <View style={styles.container}>
-        <Avatar.Text
-          label={usuario.nombre[0]}
-          size={150}
-          style={styles.avatar}
-        />
+    <>
+      <Stack.Screen options={{
+        title: 'Perfil de Usuario',
+        headerShown: true,
+        headerStyle: { backgroundColor: '#f9f8ff' },
+      }} />
+      <ScrollView style={{ backgroundColor: "#f9f8ff" }}>
+        <View style={styles.container}>
+          <Avatar.Text
+            label={usuario.nombre[0]}
+            size={150}
+            style={styles.avatar}
+          />
 
-        <Text variant="headlineMedium" style={styles.name}>
-          {usuario.nombre}
-        </Text>
+          <Text variant="headlineMedium" style={styles.name}>
+            {usuario.nombre}
+          </Text>
 
 
 
-        <View style={{ width: '100%', gap: 10, marginBottom: 20 }}>
-        
-          <View style={styles.listItem}><List.Item title={`Correo: ${usuario.email}`} left={props => <List.Icon {...props} icon="email" color="#607080" />} /></View>
-          <View style={styles.listItem}><List.Item title={`Teléfono: ${usuario.telefono || 'No disponible'}`} left={props => <List.Icon {...props} icon="phone" color="#607080" />} /></View>
-          <View style={styles.listItem}><List.Item title={`Dirección: ${usuario.direccion || 'No disponible'}`} left={props => <List.Icon {...props} icon="map-marker" color="#607080" />} /></View>
-          
+          <View style={{ width: '100%', gap: 10, marginBottom: 20 }}>
+
+            <View style={styles.listItem}><List.Item title={`Correo: ${usuario.email}`} left={props => <List.Icon {...props} icon="email" color="#607080" />} /></View>
+            <View style={styles.listItem}><List.Item title={`Teléfono: ${usuario.telefono || 'No disponible'}`} left={props => <List.Icon {...props} icon="phone" color="#607080" />} /></View>
+            <View style={styles.listItem}><List.Item title={`Dirección: ${usuario.direccion || 'No disponible'}`} left={props => <List.Icon {...props} icon="map-marker" color="#607080" />} /></View>
+
+          </View>
+          <Button mode="text"
+            style={styles.logoutButton}
+            labelStyle={styles.logoutLabel}
+            onPress={() => {
+              alert('Sesión cerrada');
+              router.push('/app');
+            }}>
+
+            Cerrar sesión
+          </Button>
+
         </View>
-  <Button mode="text" style={styles.logoutButton} labelStyle={styles.logoutLabel} onPress={() => router.push('/app')}>Cerrar sesión</Button>
-
-      </View>
-    </ScrollView>
-  );
+      </ScrollView>
+    </>);
 }
 
 

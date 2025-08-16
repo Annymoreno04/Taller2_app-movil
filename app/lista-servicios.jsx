@@ -1,6 +1,7 @@
 import { View } from 'react-native';
 import { ScrollView } from 'react-native';
 import { Text, List, Chip, IconButton } from 'react-native-paper';
+import { Stack } from 'expo-router';
 
 const servicios = [
   {
@@ -42,37 +43,44 @@ const servicios = [
 
 function ServicioItem({ servicio }) {
   return (
-    <View style={{
-      flexDirection: 'row',
-      alignItems: 'center',
-      backgroundColor: 'white',
-      borderRadius: 12,
-      marginBottom: 20,
-      padding: 16,
-      shadowColor: '#000',
-      shadowOffset: { width: 0, height: 3 },
-      shadowOpacity: 0.2,
-      shadowRadius: 4,
-      elevation: 2,
-    }}>
-      <View style={{ backgroundColor: servicio.color, borderRadius: 24, padding: 10, marginRight: 12 }}>
-        <List.Icon icon={servicio.icono} color="white" />
+    <>
+      <Stack.Screen options={{
+        title: 'Lista de Servicios',
+        headerShown: true,
+        headerStyle: { backgroundColor: '#f9f8ff' },
+      }} />
+
+      <View style={{
+        flexDirection: 'row',
+        alignItems: 'center',
+        backgroundColor: 'white',
+        borderRadius: 12,
+        marginBottom: 20,
+        padding: 16,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 3 },
+        shadowOpacity: 0.2,
+        shadowRadius: 4,
+        elevation: 2,
+      }}>
+        <View style={{ backgroundColor: servicio.color, borderRadius: 24, padding: 10, marginRight: 12 }}>
+          <List.Icon icon={servicio.icono} color="white" />
+        </View>
+        <View style={{ flex: 1 }}>
+          <Text variant="titleMedium" style={{ fontWeight: 'bold', marginBottom: 4 }}>
+            {servicio.titulo}
+            {servicio.nuevo && <Chip style={{ backgroundColor: '#ffb300', marginLeft: 8 }} textStyle={{ color: 'white', fontWeight: 'bold', fontSize: 12 }}>New</Chip>}
+          </Text>
+          <Text variant="bodySmall" style={{ color: '#444', marginBottom: 8 }}>{servicio.descripcion}</Text>
+        </View>
+        <List.Icon icon="chevron-right" color="#bbb" />
       </View>
-      <View style={{ flex: 1 }}>
-        <Text variant="titleMedium" style={{ fontWeight: 'bold', marginBottom: 4 }}>
-          {servicio.titulo}
-          {servicio.nuevo && <Chip style={{ backgroundColor: '#ffb300', marginLeft: 8 }} textStyle={{ color: 'white', fontWeight: 'bold', fontSize: 12 }}>New</Chip>}
-        </Text>
-        <Text variant="bodySmall" style={{ color: '#444', marginBottom: 8 }}>{servicio.descripcion}</Text>
-      </View>
-      <List.Icon icon="chevron-right" color="#bbb" />
-    </View>
-  );
+    </>);
 }
 
 export default function ListaServicios() {
   return (
-    <ScrollView>
+    <ScrollView style={{ backgroundColor: "#f9f8ff" }}>
       <View style={{ flex: 1, justifyContent: 'center', padding: 10, paddingTop: 0 }}>
         <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginHorizontal: 0 }}>
           <IconButton icon="home" size={24} style={{ marginLeft: 0 }} />

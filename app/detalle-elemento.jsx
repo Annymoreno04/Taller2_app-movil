@@ -4,12 +4,13 @@ import { ScrollView, StyleSheet } from 'react-native';
 import { Text, Button, Avatar, Searchbar } from 'react-native-paper';
 import { useLocalSearchParams } from "expo-router";
 import elementos from "../assets/elementos.json";
+import { Stack } from "expo-router";
 
 
 export default function DetalleElemento() {
   const { id } = useLocalSearchParams();
   const elemento = elementos.find((el) => el.id.toString() === id);
-  
+
   if (!elemento) {
     return (
       <View style={styles.center}>
@@ -19,36 +20,42 @@ export default function DetalleElemento() {
   }
 
   return (
-    <ScrollView>
-      <View style={styles.container}>
-        <View style={styles.imageContainer}>
-          <Avatar.Image
-            source={{ uri: elemento.urlImagen }}
-            size={100}
-            style={styles.avatar}
-          />
+    <>
+      <Stack.Screen options={{
+        title: 'Detalle del Elemento',
+        headerShown: true,
+        headerStyle: { backgroundColor: '#f9f8ff' },
+      }} />
+      <ScrollView style={{ backgroundColor: "#f9f8ff" }}>
+        <View style={styles.container}>
+          <View style={styles.imageContainer}>
+            <Avatar.Image
+              source={{ uri: elemento.urlImagen }}
+              size={100}
+              style={styles.avatar}
+            />
+          </View>
+
+          <Text variant="headlineMedium" style={styles.title}>
+            {elemento.titulo}
+          </Text>
+
+          <Text style={styles.price}>{elemento.precio}</Text>
+
+          <View style={styles.descriptionContainer}>
+            <Text style={styles.description}>{elemento.descripcion}</Text>
+          </View>
+
+          <Button
+            mode="contained"
+            style={styles.button}
+            labelStyle={styles.buttonLabel}
+          >
+            Acción
+          </Button>
         </View>
-
-        <Text variant="headlineMedium" style={styles.title}>
-          {elemento.titulo}
-        </Text>
-
-        <Text style={styles.price}>{elemento.precio}</Text>
-
-        <View style={styles.descriptionContainer}>
-          <Text style={styles.description}>{elemento.descripcion}</Text>
-        </View>
-
-        <Button
-          mode="contained"
-          style={styles.button}
-          labelStyle={styles.buttonLabel}
-        >
-          Acción
-        </Button>
-      </View>
-    </ScrollView>
-  );
+      </ScrollView>
+    </>);
 }
 
 const styles = StyleSheet.create({
@@ -103,4 +110,4 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     fontSize: 16,
   },
-  });
+});

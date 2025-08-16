@@ -3,6 +3,7 @@ import { View, ScrollView } from "react-native";
 import { Text, Searchbar, Button, Avatar } from "react-native-paper";
 import { useRouter } from "expo-router";
 import elementos from "../assets/elementos.json";
+import { Stack } from "expo-router";
 
 export default function ListaElementos() {
   const [textoBuscar, setTextoBuscar] = useState("");
@@ -18,8 +19,14 @@ export default function ListaElementos() {
   }, [textoBuscar]);
 
   return (
+    <>
+    <Stack.Screen options={{
+        title: 'Lista de Elementos  ',
+        headerShown: true,
+        headerStyle: { backgroundColor: '#f9f8ff' },
+      }} />
     <ScrollView>
-      <View style={{ flex: 1, justifyContent: "center", padding: 20 }}>
+      <View style={{ flex: 1, justifyContent: "center", padding: 20, backgroundColor: "#f9f8ff" }}>
         <Searchbar
           style={{ marginBottom: 16 }}
           placeholder="Buscar"
@@ -74,5 +81,5 @@ export default function ListaElementos() {
         ))}
       </View>
     </ScrollView>
-  );
+ </> );
 }

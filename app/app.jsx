@@ -1,5 +1,5 @@
 import { View } from 'react-native';
-import {FlatList, StyleSheet  } from 'react-native';
+import { FlatList, StyleSheet } from 'react-native';
 import { router, Stack } from 'expo-router';
 import { List, TouchableRipple } from 'react-native-paper';
 
@@ -10,7 +10,7 @@ const pantallas = [
     title: "Autor",
     icon: "account-circle",
     route: "autor",
-    color: "#f36e9c",
+    color: "#a18cf0",
   },
   {
     title: "Inicio de sesión",
@@ -31,28 +31,22 @@ const pantallas = [
     color: "#f36e9c",
   },
   {
-    title: "Detalle de elemento",
-    icon: "account",
-    route: "detalle-elemento",
+    title: "Formulario de registro",
+    icon: "account-plus",
+    route: "formulario-registro",
     color: "#a18cf0",
   },
   {
-    title: "Formulario de registro",
-    icon: "cog",
-    route: "formulario-registro",
-    color: "#bdbdbd",
-  },
-  {
     title: "Configuración",
-    icon: "account",
+    icon: "cog-outline",
     route: "configuracion",
     color: "#bdbdbd",
   },
   {
-    title: "Perfil de usuario",
-    icon: "account",
+    title: "Lista de usuarios",
+    icon: "account-group",
     route: "lista-usuario",
-    color: "#bdbdbd",
+    color: "#b7aae6ee",
   },
   {
     title: "Lista de servicios",

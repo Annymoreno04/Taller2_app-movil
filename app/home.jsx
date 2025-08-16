@@ -17,7 +17,7 @@ export default function Home() {
   };
 
   const MostrarTodo = (index) => {
-    const newData = [...data]; 
+    const newData = [...dato]; 
     newData[index].mostrarTodo = !newData[index].mostrarTodo; 
     setDato(newData); 
   };
